@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+tmp/
+*.db
+.env
+node_modules/
+.next/
+miniapp/.next/
+miniapp/node_modules/
+.pytest_cache/

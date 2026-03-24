@@ -1,0 +1,7 @@
+{
+  "offers": [
+    {"sku": "KSP-001", "title": "Flour 10kg", "ntin": "0200021566121", "price": 9500, "currency": "KZT", "available": true},
+    {"sku": "KSP-002", "title": "Flour 5kg", "ntin": "0200021566122", "price": 5200, "currency": "KZT", "available": true},
+    {"sku": "KSP-003", "title": "Flour 2kg", "ntin": "0200021566123", "price": 2400, "currency": "KZT", "available": true}
+  ]
+}

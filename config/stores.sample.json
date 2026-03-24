@@ -1,0 +1,13 @@
+{
+  "stores": [
+    {
+      "key": "kaspi-main",
+      "title": "Kaspi Main Store",
+      "marketplace": "kaspi",
+      "mode": "mock",
+      "input": "/Users/guldana/Documents/New project/marketplace-bots/examples/kaspi_mock_offers.json",
+      "api_base": "",
+      "token_env": "KASPI_API_TOKEN"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "rules": [
+    {"min_price": 2000, "max_price": 10000, "undercut_by": 150, "priority": 0}
+  ]
+}
