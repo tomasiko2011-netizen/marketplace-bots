@@ -13,8 +13,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "skladprobot — Панель управления",
-  description: "Управление автодемпингом на маркетплейсах Казахстана",
+  title: "TruEst Digital — WhatsApp-боты и автоматизация для бизнеса",
+  description: "Автоматизируем малый бизнес Казахстана: WhatsApp-боты для записи, каталоги, бронирование, ERP-системы. 10+ продуктов, 8 ниш, 10 городов.",
+  keywords: "WhatsApp бот, автоматизация бизнеса, Казахстан, запись онлайн, CRM, ERP",
+  openGraph: {
+    title: "TruEst Digital — WhatsApp-боты для бизнеса КЗ",
+    description: "Автоматизируем малый бизнес: боты, ERP, сайты под ключ",
+    type: "website",
+    locale: "ru_KZ",
+  },
 };
 
 export default function RootLayout({
