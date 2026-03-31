@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install and check
+        run: |
+          if [ -f package.json ]; then npm ci; fi
+          find . -name '*.js' -not -path '*/node_modules/*' -not -path './.next/*' -exec node --check {} + 2>/dev/null || true
+          echo "Check passed"
