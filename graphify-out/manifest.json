@@ -1,0 +1,377 @@
+{
+  "/Users/guldana/Documents/New project/marketplace-bots/.claude/settings.local.json": {
+    "mtime": 1772848347.3297856,
+    "ast_hash": "d329f8d23ce34e1b0be58030b9c56ae6",
+    "semantic_hash": "d329f8d23ce34e1b0be58030b9c56ae6"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/config/stores.sample.json": {
+    "mtime": 1771708269.1449294,
+    "ast_hash": "26d387473f0135a2a38f11abd953de44",
+    "semantic_hash": "26d387473f0135a2a38f11abd953de44"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/docs/db_schema.sql": {
+    "mtime": 1771836491.321427,
+    "ast_hash": "ce85ed0083f9095630decaa9f4b4a075",
+    "semantic_hash": "ce85ed0083f9095630decaa9f4b4a075"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/examples/kaspi_mock_offers.json": {
+    "mtime": 1771836239.1380837,
+    "ast_hash": "cacad35142e1e0fac36d8b2a8a8dd79a",
+    "semantic_hash": "cacad35142e1e0fac36d8b2a8a8dd79a"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/examples/rules.json": {
+    "mtime": 1771660142.771942,
+    "ast_hash": "24c85914a057b4ed23f48b3734feb973",
+    "semantic_hash": "24c85914a057b4ed23f48b3734feb973"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/migrations/001_init.sql": {
+    "mtime": 1772809879.5798914,
+    "ast_hash": "a44fbd4a24179a7d0108995dfa6bbc6f",
+    "semantic_hash": "a44fbd4a24179a7d0108995dfa6bbc6f"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/eslint.config.mjs": {
+    "mtime": 1771836276.1795902,
+    "ast_hash": "dfa1f5f6a7037bf39dc510f30b180002",
+    "semantic_hash": "dfa1f5f6a7037bf39dc510f30b180002"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/next-env.d.ts": {
+    "mtime": 1772845406.4951382,
+    "ast_hash": "2a74d3909800ca5467fa83b0ab4a4890",
+    "semantic_hash": "2a74d3909800ca5467fa83b0ab4a4890"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/next.config.ts": {
+    "mtime": 1772154933.082044,
+    "ast_hash": "f9b4587abaa1a3358f75479fc7ec0de7",
+    "semantic_hash": "f9b4587abaa1a3358f75479fc7ec0de7"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/package.json": {
+    "mtime": 1772800019.736906,
+    "ast_hash": "45cb64917142d966dc91cd9df8290014",
+    "semantic_hash": "45cb64917142d966dc91cd9df8290014"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/postcss.config.mjs": {
+    "mtime": 1771836276.179893,
+    "ast_hash": "239f3ebf717465dc636818a1a619398d",
+    "semantic_hash": "239f3ebf717465dc636818a1a619398d"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/app/api/auth/csrf/route.ts": {
+    "mtime": 1772154713.546482,
+    "ast_hash": "757829745087a87c13edbfe0642e3f89",
+    "semantic_hash": "757829745087a87c13edbfe0642e3f89"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/app/api/auth/login/route.ts": {
+    "mtime": 1772154738.3604918,
+    "ast_hash": "4cc62054ffb21929b81d1e4ee18bacb0",
+    "semantic_hash": "4cc62054ffb21929b81d1e4ee18bacb0"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/app/api/auth/me/route.ts": {
+    "mtime": 1771838521.3055842,
+    "ast_hash": "55405deaab0d5c2dabd8f3fe46cf761d",
+    "semantic_hash": "55405deaab0d5c2dabd8f3fe46cf761d"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/app/api/auth/register/route.ts": {
+    "mtime": 1772154766.865164,
+    "ast_hash": "0582df2fbffd128648fadbcfc0def690",
+    "semantic_hash": "0582df2fbffd128648fadbcfc0def690"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/app/api/auth/telegram/route.ts": {
+    "mtime": 1772154795.3408613,
+    "ast_hash": "d1935d075a47af1409cfcee83f5927be",
+    "semantic_hash": "d1935d075a47af1409cfcee83f5927be"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/app/api/dashboard/admin/route.ts": {
+    "mtime": 1772810025.5025778,
+    "ast_hash": "5f9e85f999a831a39770322a40041c26",
+    "semantic_hash": "5f9e85f999a831a39770322a40041c26"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/app/api/dashboard/export/route.ts": {
+    "mtime": 1772810031.9528916,
+    "ast_hash": "a82ff469a0fd804215230b7138033eea",
+    "semantic_hash": "a82ff469a0fd804215230b7138033eea"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/app/api/dashboard/overview/route.ts": {
+    "mtime": 1772809922.8715272,
+    "ast_hash": "4a1c4c8f1d8b9ff5792e444f98367556",
+    "semantic_hash": "4a1c4c8f1d8b9ff5792e444f98367556"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/app/api/dashboard/settings/route.ts": {
+    "mtime": 1772846888.9309828,
+    "ast_hash": "63076b7f0e21f81f10171151a7fa4a45",
+    "semantic_hash": "63076b7f0e21f81f10171151a7fa4a45"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/app/dashboard/page.tsx": {
+    "mtime": 1772846947.4027007,
+    "ast_hash": "fa7c1854b9f55418270b109c6ba32e28",
+    "semantic_hash": "fa7c1854b9f55418270b109c6ba32e28"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/app/layout.tsx": {
+    "mtime": 1774615483.7533228,
+    "ast_hash": "f009f64ad6fabad78c7de891d6219459",
+    "semantic_hash": "f009f64ad6fabad78c7de891d6219459"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/app/login/page.tsx": {
+    "mtime": 1772154827.0833442,
+    "ast_hash": "c093b6135bee0c339c29baad108060bc",
+    "semantic_hash": "c093b6135bee0c339c29baad108060bc"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/app/page.tsx": {
+    "mtime": 1774615560.6943004,
+    "ast_hash": "0828c9ebb0fc3ecfd93e25fb10406c3d",
+    "semantic_hash": "0828c9ebb0fc3ecfd93e25fb10406c3d"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/data/kz_regions.geo.json": {
+    "mtime": 1772120742.1907399,
+    "ast_hash": "7b04dc979e0b7cd4214f6a5bcfeae72f",
+    "semantic_hash": "7b04dc979e0b7cd4214f6a5bcfeae72f"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/lib/admin.ts": {
+    "mtime": 1772810020.848137,
+    "ast_hash": "2d66af7dbbf70e38ecb6c95b199d622e",
+    "semantic_hash": "2d66af7dbbf70e38ecb6c95b199d622e"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/lib/auth.ts": {
+    "mtime": 1772154635.3781972,
+    "ast_hash": "2db42efbe5e8e1171c6bd8eb7837432b",
+    "semantic_hash": "2db42efbe5e8e1171c6bd8eb7837432b"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/lib/csrf.ts": {
+    "mtime": 1772154688.9539678,
+    "ast_hash": "74246af9a36cf05cd2ba987d8a3570cb",
+    "semantic_hash": "74246af9a36cf05cd2ba987d8a3570cb"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/lib/dashboard.ts": {
+    "mtime": 1772810089.50833,
+    "ast_hash": "af016761fc02c898775998d546480c72",
+    "semantic_hash": "af016761fc02c898775998d546480c72"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/lib/db.ts": {
+    "mtime": 1772846874.6103473,
+    "ast_hash": "410c03580eee7552166ddb56a8d8b72e",
+    "semantic_hash": "410c03580eee7552166ddb56a8d8b72e"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/lib/rate-limit.ts": {
+    "mtime": 1772154661.284321,
+    "ast_hash": "8dc7cde9ff0d2212daf59beb40180ace",
+    "semantic_hash": "8dc7cde9ff0d2212daf59beb40180ace"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/lib/telegram.ts": {
+    "mtime": 1771838473.4032123,
+    "ast_hash": "bd7224737c6c0df36e8265413d5b1a13",
+    "semantic_hash": "bd7224737c6c0df36e8265413d5b1a13"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/src/proxy.ts": {
+    "mtime": 1772845394.9983919,
+    "ast_hash": "af1731c32792717c81662e37fa7619b9",
+    "semantic_hash": "af1731c32792717c81662e37fa7619b9"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/tsconfig.json": {
+    "mtime": 1771836276.1834226,
+    "ast_hash": "ee17fd1c97c735e9f3564e3f5251f125",
+    "semantic_hash": "ee17fd1c97c735e9f3564e3f5251f125"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/vercel.json": {
+    "mtime": 1771837300.696826,
+    "ast_hash": "f56f69b2c981d3c9e31d73214b50ce1d",
+    "semantic_hash": "f56f69b2c981d3c9e31d73214b50ce1d"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/run_telegram.sh": {
+    "mtime": 1771746286.6808896,
+    "ast_hash": "06769d8ffde6a658489431d3e608852f",
+    "semantic_hash": "06769d8ffde6a658489431d3e608852f"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/__init__.py": {
+    "mtime": 1771660062.3392222,
+    "ast_hash": "7ab4e141b0a0b7bcad90ad900a508e93",
+    "semantic_hash": "7ab4e141b0a0b7bcad90ad900a508e93"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/adapters/__init__.py": {
+    "mtime": 1771660129.1697743,
+    "ast_hash": "29c7ac9e766c6ee1c68372c7e75aec0c",
+    "semantic_hash": "29c7ac9e766c6ee1c68372c7e75aec0c"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/adapters/base.py": {
+    "mtime": 1771660095.0542254,
+    "ast_hash": "231bf6980fb3c7b60fae3a6093500439",
+    "semantic_hash": "231bf6980fb3c7b60fae3a6093500439"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/adapters/forte.py": {
+    "mtime": 1771660160.1217,
+    "ast_hash": "47eecfa2d89d8d4e14e042854b5a2216",
+    "semantic_hash": "47eecfa2d89d8d4e14e042854b5a2216"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/adapters/halyk.py": {
+    "mtime": 1771660160.121493,
+    "ast_hash": "0954ba5a612fd9d1f0e9987f36ad13fb",
+    "semantic_hash": "0954ba5a612fd9d1f0e9987f36ad13fb"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/adapters/jusan.py": {
+    "mtime": 1771660160.1215982,
+    "ast_hash": "592d106c380cb9c6defa2e742d552dbf",
+    "semantic_hash": "592d106c380cb9c6defa2e742d552dbf"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/adapters/kaspi.py": {
+    "mtime": 1772749832.8152115,
+    "ast_hash": "d5a7685b9626510abdf55b21eeba0e9e",
+    "semantic_hash": "d5a7685b9626510abdf55b21eeba0e9e"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/adapters/lamoda.py": {
+    "mtime": 1771660160.1217992,
+    "ast_hash": "805ce3d6ca9f4692fb023da4b68d0301",
+    "semantic_hash": "805ce3d6ca9f4692fb023da4b68d0301"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/adapters/ozon.py": {
+    "mtime": 1771660160.121196,
+    "ast_hash": "c4848319da0d4366d2a5eab38c512ace",
+    "semantic_hash": "c4848319da0d4366d2a5eab38c512ace"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/adapters/registry.py": {
+    "mtime": 1771660099.117243,
+    "ast_hash": "7484c9fd84bca6fa5767b3d4b8123441",
+    "semantic_hash": "7484c9fd84bca6fa5767b3d4b8123441"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/adapters/wildberries.py": {
+    "mtime": 1771660160.1213825,
+    "ast_hash": "f9f3828360b2478d4fb9175afd6e7132",
+    "semantic_hash": "f9f3828360b2478d4fb9175afd6e7132"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/bot/telegram_bot.py": {
+    "mtime": 1772846850.7311037,
+    "ast_hash": "67e02390f4fbe1e2644c01d1ebed5250",
+    "semantic_hash": "67e02390f4fbe1e2644c01d1ebed5250"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/cli.py": {
+    "mtime": 1771836404.7141004,
+    "ast_hash": "d18a50de9ab04f2667e3e57d7c3003dd",
+    "semantic_hash": "d18a50de9ab04f2667e3e57d7c3003dd"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/core/__init__.py": {
+    "mtime": 1771660131.9338946,
+    "ast_hash": "c97aa54295d19167d67e3df890422b63",
+    "semantic_hash": "c97aa54295d19167d67e3df890422b63"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/core/engine.py": {
+    "mtime": 1771660078.5688136,
+    "ast_hash": "bb0da28708cc29ec4a26e9eb9dd5e70c",
+    "semantic_hash": "bb0da28708cc29ec4a26e9eb9dd5e70c"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/core/models.py": {
+    "mtime": 1772749801.6215773,
+    "ast_hash": "3ddf7a73def4a1385ee53468b37e64dc",
+    "semantic_hash": "3ddf7a73def4a1385ee53468b37e64dc"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/core/rules.py": {
+    "mtime": 1771660074.7473414,
+    "ast_hash": "6c26c5aeece12766387629b6010d8958",
+    "semantic_hash": "6c26c5aeece12766387629b6010d8958"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/db/__init__.py": {
+    "mtime": 1771660134.319377,
+    "ast_hash": "c97aa54295d19167d67e3df890422b63",
+    "semantic_hash": "c97aa54295d19167d67e3df890422b63"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/db/interface.py": {
+    "mtime": 1772846750.429623,
+    "ast_hash": "a3ac86ba7e499b7d85c1ebdce57c63cd",
+    "semantic_hash": "a3ac86ba7e499b7d85c1ebdce57c63cd"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/db/postgres.py": {
+    "mtime": 1772810076.52491,
+    "ast_hash": "417cb9ef4672368fecb007f250bfe83a",
+    "semantic_hash": "417cb9ef4672368fecb007f250bfe83a"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/src/mp_bots/db/sqlite.py": {
+    "mtime": 1772777613.5781126,
+    "ast_hash": "093f0f351ad8e7e2c72944f29edaf92b",
+    "semantic_hash": "093f0f351ad8e7e2c72944f29edaf92b"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/tests/__init__.py": {
+    "mtime": 1772846955.1331146,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/tests/test_adapter.py": {
+    "mtime": 1772846997.5552886,
+    "ast_hash": "0ac4706131e1c907a570a7a9d41865cd",
+    "semantic_hash": "0ac4706131e1c907a570a7a9d41865cd"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/tests/test_db_interface.py": {
+    "mtime": 1772847012.4219842,
+    "ast_hash": "b45671dba65858b540ae36e0b96fc66f",
+    "semantic_hash": "b45671dba65858b540ae36e0b96fc66f"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/tests/test_models.py": {
+    "mtime": 1772846960.3275063,
+    "ast_hash": "e2959fc65457df2945962d1dde99f16e",
+    "semantic_hash": "e2959fc65457df2945962d1dde99f16e"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/tests/test_rules_engine.py": {
+    "mtime": 1772846972.0027108,
+    "ast_hash": "e0f1cfda3e3a032ae20fbaacbf8d5d16",
+    "semantic_hash": "e0f1cfda3e3a032ae20fbaacbf8d5d16"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/tests/test_trial_counter.py": {
+    "mtime": 1772846985.459758,
+    "ast_hash": "4f7c9cbcba8ec386454c4f6db09d5937",
+    "semantic_hash": "4f7c9cbcba8ec386454c4f6db09d5937"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/.github/workflows/ci.yml": {
+    "mtime": 1774946337.6710527,
+    "ast_hash": "f1c19c6ab5d40ce26c2a3f4c4ed979b2",
+    "semantic_hash": "f1c19c6ab5d40ce26c2a3f4c4ed979b2"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/README.md": {
+    "mtime": 1771822395.8919253,
+    "ast_hash": "e7d5248c994d38bb7ef8356ae706f583",
+    "semantic_hash": "e7d5248c994d38bb7ef8356ae706f583"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/docs/architecture.md": {
+    "mtime": 1771660045.0026023,
+    "ast_hash": "83fdebb0e3f7e0d30dee967481c5d358",
+    "semantic_hash": "83fdebb0e3f7e0d30dee967481c5d358"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/docs/kaspi_integration.md": {
+    "mtime": 1771837684.7281005,
+    "ast_hash": "5ef583ed368c77c27f9a7f0b18d84127",
+    "semantic_hash": "5ef583ed368c77c27f9a7f0b18d84127"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/docs/requirements.md": {
+    "mtime": 1771704593.716272,
+    "ast_hash": "fe66604542bf5f766c153112551544a1",
+    "semantic_hash": "fe66604542bf5f766c153112551544a1"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/README.md": {
+    "mtime": 1771838608.8861272,
+    "ast_hash": "d80cc58993289da940f146e765a661c7",
+    "semantic_hash": "d80cc58993289da940f146e765a661c7"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/requirements.txt": {
+    "mtime": 1772810109.4667735,
+    "ast_hash": "84e112ec7b1a0be290b8cbf16243281b",
+    "semantic_hash": "84e112ec7b1a0be290b8cbf16243281b"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/public/file.svg": {
+    "mtime": 1771836276.1795983,
+    "ast_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71",
+    "semantic_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/public/globe.svg": {
+    "mtime": 1771836276.1811132,
+    "ast_hash": "2aaafa6a49b6563925fe440891e32717",
+    "semantic_hash": "2aaafa6a49b6563925fe440891e32717"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/public/next.svg": {
+    "mtime": 1771836276.1814723,
+    "ast_hash": "8e061864f388b47f33a1c3780831193e",
+    "semantic_hash": "8e061864f388b47f33a1c3780831193e"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/public/vercel.svg": {
+    "mtime": 1771836276.182086,
+    "ast_hash": "c0af2f507b369b085b35ef4bbe3bcf1e",
+    "semantic_hash": "c0af2f507b369b085b35ef4bbe3bcf1e"
+  },
+  "/Users/guldana/Documents/New project/marketplace-bots/miniapp/public/window.svg": {
+    "mtime": 1771836276.1820836,
+    "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": "a2760511c65806022ad20adf74370ff3"
+  }
+}
