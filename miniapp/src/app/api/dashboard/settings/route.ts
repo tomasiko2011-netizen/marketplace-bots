@@ -13,6 +13,8 @@ import {
   setExcludedCompetitors,
 } from "@/lib/db";
 
+const MIN_POLL_SECONDS = 30;
+
 async function verifyStoreAccess(req: NextRequest, storeKey: string) {
   const payload = await getSessionPayloadFromRequest(req);
   if (!payload?.sub) return null;
@@ -55,7 +57,14 @@ export async function POST(req: NextRequest) {
   }
 
   if (body.settings) {
-    await upsertStoreSettings(storeKey, body.settings);
+    // Тариф (plan_code, max_skus, paid_active) меняет только админ; пользователю — интервал и турбо
+    const { poll_interval_seconds, turbo_mode, plan_code, max_skus, paid_active } = body.settings;
+    const poll = Number(poll_interval_seconds);
+    await upsertStoreSettings(storeKey, {
+      poll_interval_seconds: Number.isFinite(poll) ? Math.min(Math.max(Math.round(poll), MIN_POLL_SECONDS), 3600) : undefined,
+      turbo_mode: typeof turbo_mode === "boolean" ? turbo_mode : undefined,
+      ...(payload.role === "admin" ? { plan_code, max_skus, paid_active } : {}),
+    });
   }
   if (body.rule) {
     await upsertGlobalRule(
