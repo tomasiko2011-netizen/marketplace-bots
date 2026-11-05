@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { NextRequest } from "next/server";
 import { initSchema, findUserByEmail, createUserWithEmail } from "@/lib/db";
-import { hashPassword, signSession, resolveRoleByEmail, sessionCookieOptions } from "@/lib/auth";
+import { hashPassword, signSession, sessionCookieOptions } from "@/lib/auth";
 import { getClientIp, takeRateLimit } from "@/lib/rate-limit";
 import { validateCsrf } from "@/lib/csrf";
 
@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
 
   const passwordHash = await hashPassword(password);
   const user = await createUserWithEmail(email, passwordHash);
-  const token = await signSession({ sub: String(user.id), email: user.email, role: resolveRoleByEmail(user.email) });
+  const token = await signSession({ sub: String(user.id), email: user.email, role: "user" });
 
   const res = NextResponse.json({ ok: true });
   res.cookies.set("session", token, sessionCookieOptions());

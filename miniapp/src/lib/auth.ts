@@ -3,12 +3,8 @@ import bcrypt from "bcryptjs";
 import type { NextRequest } from "next/server";
 
 const JWT_SECRET = process.env.JWT_SECRET || "";
-const ADMIN_EMAILS = new Set(
-  (process.env.ADMIN_EMAILS || "")
-    .split(",")
-    .map((x) => x.trim().toLowerCase())
-    .filter(Boolean)
-);
+// Роль admin выдаётся ТОЛЬКО по Telegram ID из подписанного initData.
+// Email-вход/регистрация не подтверждают владение адресом, поэтому всегда role=user.
 const ADMIN_TELEGRAM_IDS = new Set(
   (process.env.ADMIN_TELEGRAM_IDS || "")
     .split(",")
@@ -55,10 +51,6 @@ export async function rotateSession(token: string) {
   return signSession(cleanPayload);
 }
 
-export function resolveRoleByEmail(email: string) {
-  return ADMIN_EMAILS.has((email || "").toLowerCase()) ? "admin" : "user";
-}
-
 export function resolveRoleByTelegramId(telegramId: string) {
   return ADMIN_TELEGRAM_IDS.has(String(telegramId || "")) ? "admin" : "user";
 }
@@ -83,7 +75,19 @@ export async function getSessionPayloadFromRequest(req: NextRequest) {
   }
 }
 
+/**
+ * Админ = role "admin" в подписанной сессии И telegram_id из ADMIN_TELEGRAM_IDS.
+ * Вторая проверка отсекает старые сессии, выданные по email до этого исправления,
+ * и снимает права сразу после удаления ID из ADMIN_TELEGRAM_IDS.
+ */
+export function isAdminPayload(payload: Record<string, unknown> | null | undefined) {
+  if (!payload || payload.role !== "admin") return false;
+  const telegramId = payload.telegram_id;
+  if (typeof telegramId !== "string" || !telegramId) return false;
+  return resolveRoleByTelegramId(telegramId) === "admin";
+}
+
 export async function requireAdmin(req: NextRequest) {
   const payload = await getSessionPayloadFromRequest(req);
-  return payload && payload.role === "admin";
+  return isAdminPayload(payload);
 }

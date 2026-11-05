@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { NextRequest } from "next/server";
 import { initSchema, findUserByEmail } from "@/lib/db";
-import { verifyPassword, signSession, resolveRoleByEmail, sessionCookieOptions } from "@/lib/auth";
+import { verifyPassword, signSession, sessionCookieOptions } from "@/lib/auth";
 import { getClientIp, takeRateLimit } from "@/lib/rate-limit";
 import { validateCsrf } from "@/lib/csrf";
 
@@ -30,7 +30,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
   }
 
-  const token = await signSession({ sub: String(user.id), email: user.email, role: resolveRoleByEmail(user.email) });
+  const token = await signSession({ sub: String(user.id), email: user.email, role: "user" });
   const res = NextResponse.json({ ok: true });
   res.cookies.set("session", token, sessionCookieOptions());
   return res;

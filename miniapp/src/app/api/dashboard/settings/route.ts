@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getSessionPayloadFromRequest } from "@/lib/auth";
+import { getSessionPayloadFromRequest, isAdminPayload } from "@/lib/auth";
 import {
   getStoreSettings,
   upsertStoreSettings,
@@ -20,7 +20,7 @@ async function verifyStoreAccess(req: NextRequest, storeKey: string) {
   if (!payload?.sub) return null;
   const stores = await getStoresForUser(Number(payload.sub));
   const match = stores.find((s) => s.store_key === storeKey);
-  if (!match && payload.role !== "admin") return null;
+  if (!match && !isAdminPayload(payload)) return null;
   return payload;
 }
 
@@ -63,7 +63,7 @@ export async function POST(req: NextRequest) {
     await upsertStoreSettings(storeKey, {
       poll_interval_seconds: Number.isFinite(poll) ? Math.min(Math.max(Math.round(poll), MIN_POLL_SECONDS), 3600) : undefined,
       turbo_mode: typeof turbo_mode === "boolean" ? turbo_mode : undefined,
-      ...(payload.role === "admin" ? { plan_code, max_skus, paid_active } : {}),
+      ...(isAdminPayload(payload) ? { plan_code, max_skus, paid_active } : {}),
     });
   }
   if (body.rule) {
